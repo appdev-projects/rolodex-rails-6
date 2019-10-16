@@ -1,4 +1,4 @@
-# Rolodex Rails 6
+# Rolodex
 
 ## Standard Workflow
 
