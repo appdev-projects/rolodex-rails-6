@@ -2,7 +2,7 @@ FROM gitpod/workspace-full
 
 USER root
 
-RUN chmod775 bin/*
+RUN chmod 775 bin/*
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
 #
