@@ -75,4 +75,4 @@ group :production do
 end
 
 gem 'devise'
-gem 'activeadmin'
+gem 'activeadmin', '2.2.0'
