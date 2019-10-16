@@ -5,8 +5,6 @@ USER root
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
 #
-RUN pwd
-RUN ls -a
 # RUN apt-get update \
 #    && apt-get install -y bastet \
 #    && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
