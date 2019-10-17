@@ -5,3 +5,4 @@ ports:
 tasks:
 - init: chmod 775 bin/* # runs during prebuild
   command: clear
+  command: bundle install
