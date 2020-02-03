@@ -1,11 +1,4 @@
 GIT
-  remote: https://github.com/firstdraft/console_ip_whitelist.git
-  revision: 58b993b50f0ca64717ae93eebdfebd95c833bb97
-  specs:
-    console_ip_whitelist (0.1.0)
-      rails
-
-GIT
   remote: https://github.com/firstdraft/draft_generators.git
   revision: 5f55458698c2473fe526c0d25dca85d3dc0747b9
   specs:
@@ -402,7 +395,6 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara
-  console_ip_whitelist!
   devise
   dotenv-rails
   draft_generators!
@@ -431,7 +423,7 @@ DEPENDENCIES
   webpacker (~> 4.0)
 
 RUBY VERSION
-   ruby 2.6.3p62
+   ruby 2.6.5p114
 
 BUNDLED WITH
    1.17.3
