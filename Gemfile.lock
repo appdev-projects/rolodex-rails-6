@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/faker-ruby/faker.git
+  revision: 4a0d6c54a8bf9929f6d816631cf749cc019cb13f
+  branch: master
+  specs:
+    faker (2.10.1)
+      i18n (>= 1.6, < 2)
+
+GIT
   remote: https://github.com/firstdraft/draft_generators.git
   revision: 5f55458698c2473fe526c0d25dca85d3dc0747b9
   specs:
@@ -398,6 +406,7 @@ DEPENDENCIES
   dotenv-rails
   draft_generators!
   factory_bot_rails
+  faker!
   grade_runner!
   jbuilder (~> 2.7)
   letter_opener
